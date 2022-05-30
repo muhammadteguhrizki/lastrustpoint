@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root {
+  --mainFont: 'Poppins', sans-serif;
+  --mainColor: #f8f9fa;
+  --secondColor: #283042;
+}
+
+/* Navbar & Sidebar */
+.navbar-nav {
+  font-family: var(--mainFont);
+}
+
+/* Hamburger Menu */
+.navbar-toggler,
+.navbar-close {
+  border: 0;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  border: 0;
+  box-shadow: none;
+  outline: none;
+}
+.toggler-icon,
+.sidebar-icon {
+  height: 2px;
+  width: 25px;
+  display: block;
+  background-color: var(--secondColor);
+  transition: all 0.5s;
+}
+.sidebar-icon {
+  background-color: red !important;
+}
+.middle-bar,
+.middle-close-bar {
+  margin: 5px auto;
+}
+
+.navbar-close .top-close-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-close .middle-close-bar {
+  opacity: 0;
+}
+.navbar-close .bottom-close-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 10%;
+}
+/* Hamburger Menu */
+
+/* Hero */
+#hero {
+  padding-top: 6rem;
+}
+/* Hero */
+
+/* Product */
+.top-up,
+.voucher-game {
+  font-family: var(--mainFont);
+}
+/* Product */
+
+/* Footer */
+#footer {
+  background-color: var(--mainColor);
+  font-family: var(--mainFont);
+}
+/* Footer */
+
+/* Hak Cipta */
+.copyright .row p {
+  font-family: var(--mainFont);
+}
+/* Hak Cipta */
