@@ -54,7 +54,7 @@
 
 /* Hero */
 #hero {
-  padding-top: 6rem;
+  padding-top: 1.5rem;
 }
 /* Hero */
 
@@ -77,3 +77,32 @@
   font-family: var(--mainFont);
 }
 /* Hak Cipta */
+
+/* Whatsapp & Scroll Top */
+.contact {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: var(--mainColor);
+  display: flex;
+  position: fixed;
+  bottom: 30px;
+  right: 8px;
+  z-index: 9999;
+}
+.contact span {
+  font-size: 32px;
+  color: green;
+}
+.to-top {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  background-color: rgb(177, 177, 236);
+  position: fixed;
+  display: flex;
+  bottom: 28px;
+  left: 20px;
+  z-index: 9999;
+}
+/* Whatsapp & Scroll Top */
