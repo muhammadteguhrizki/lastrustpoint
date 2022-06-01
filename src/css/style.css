@@ -63,6 +63,12 @@
 .voucher-game {
   font-family: var(--mainFont);
 }
+
+.top-up .card img:hover,
+.voucher-game .card img:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 5px #222;
+}
 /* Product */
 
 /* Footer */
